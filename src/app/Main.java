@@ -156,7 +156,7 @@ public class Main {
             System.out.println("\n===============================");
             System.out.println("Buscar personas por RUT");
             System.out.println("==================================");
-            System.out.println("Ingrese el Rut por buscar (ej: 12345678-k");
+            System.out.println("Ingrese el Rut por buscar (ej: 12345678-k)");
             String rutBuscar = scanner.nextLine();
             
             Persona encontrada = gestorPersonas.buscarPersonaRut(rutBuscar);
