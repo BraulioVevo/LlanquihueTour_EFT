@@ -1,0 +1,2 @@
+Lacustre;LACUSTRE-01;Navegación Lago Todos los Santos;Paseo panorámico por el lago;20;35000.0;Velero
+Terrestre;TERRRESTRE-02;Tour Volcán Osorno;Ascenso guiado en Minibús al primer refugio;15;25000.0;Bus

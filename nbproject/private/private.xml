@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/app/Main.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Personas/Persona.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Direccion.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Rut.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Correo.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/utils/tarjetaInvalidaException.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/utils/correoInvalidoException.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/utils/rutInvalidoException.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Tarjeta.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Personas/Cliente.java</file>
+            <file>file:/C:/Users/Braulio/Documents/Trabajos%20DUOC/POO1/LlanquihueTourEFT/src/model/Registrable.java</file>
+        </group>
+    </open-files>
+</project-private>

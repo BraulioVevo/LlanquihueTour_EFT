@@ -1,0 +1,3 @@
+Cliente;Carlos Quezada;12345678-9;cquezada@gmail.com;+56911112222;Av. Gramado;123;Puerto Varas;Puerto Varas;frecuente
+Empleado;Ana Gomez;11111111-1;ana.ventas@llanquihue.cl;+56933334444;San Pedro;450;Puerto Varas;Puerto Varas;guía turistico
+Proveedor;Pedro Soto;22222222-2;contacto@maritimosoto.cl;+56955556666;Costanera;88;Llanquihue;Llanquihue;Nestle

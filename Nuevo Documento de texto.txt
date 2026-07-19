@@ -1,0 +1,64 @@
+# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+
+## 👤 Autor del proyecto
+- **Nombre:** Braulio Meriño Valdivia
+- **Carrera:** Desarrollo de aplicaciones
+- **Sede:** Duoc UC Online
+
+---
+
+## 📘 Descripción general del sistema
+Este proyecto corresponde a la Evaluación Final Transversal de la asignatura *Desarrollo Orientado a Objetos I*. 
+Se trata de un prototipo de software modular desarrollado en Java para la agencia **Llanquihue Tour**, cuyo objetivo es digitalizar la gestión de personas (Clientes, Empleados y Proveedores) y catálogo de servicios (Tours Lacustres y Terrestres).
+
+El sistema soluciona problemáticas de desorganización de datos aplicando de forma rigurosa los pilares fundamentales de la Programación Orientada a Objetos: 
+Encapsulamiento, Composición, Herencia, Polimorfismo e Interfaces, junto con lectura de archivos planos `.txt` con manejo seguro de excepciones y un flujo interactivo por consola.
+
+---
+
+## 🧱 Estructura general del proyecto
+
+```plaintext
+📁 src/
+├── app/
+│   └── Main.java                      # Clase principal con el menú interactivo (CLI)
+├── model/
+│   ├── Registrable.java               # Interfaz genérica para auditoría y registros
+│   ├── Rut.java                       # Clase de composición con validación de formato
+│   ├── Correo.java                    # Clase de composición con validación de email
+│   ├── Direccion.java                 # Clase de composición para datos geográficos
+│   ├── Tarjeta.java                   # Clase de composición con validación de 16 dígitos
+│   ├── Personas/
+│   │   ├── Persona.java               # Clase abstracta base que implementa Registrable
+│   │   ├── Cliente.java               # Subclase con atributos de frecuencia y Tarjeta
+│   │   ├── Empleado.java              # Subclase con atributo de área
+│   │   └── Proveedor.java             # Subclase con atributo de empresa externa
+│   └── Producto/
+│       ├── Producto.java              # Clase abstracta base que implementa Registrable
+│       ├── TourLacustre.java          # Subclase con tipo de embarcación
+│       └── TourTerrestre.java         # Subclase con tipo de transporte
+├── data/
+│   ├── LectorArchivoPersonas.java     # Carga de personas.txt usando Try-with-resources
+│   └── LectorArchivoProductos.java    # Carga de productos.txt usando Try-with-resources
+├── service/
+│   ├── GestorPersonas.java            # Lógica de negocio, búsquedas por RUT y resúmenes
+│   └── GestorProductos.java           # Lógica de negocio, búsquedas por ID y resúmenes
+└── utils/
+    ├── rutInvalidoException.java      # Excepción personalizada para validación de RUT
+    ├── correoInvalidoException.java   # Excepción personalizada para validación de Correo
+    └── tarjetaInvalidaException.java  # Excepción personalizada para validación de Tarjeta
+
+```
+⚙️ Instrucciones para clonar y ejecutar el proyecto
+
+1. Clona el repositorio desde GitHub:
+
+git clone https://github.com/BraulioVevo/LlanquihueTour_EFT.git
+
+2. Abre el proyecto en tu IDE preferido (NetBeans o IntelliJ IDEA(El programa se desarrollo en NetBeans, idealmente abrirlo en este ultimo)).
+
+3. Verifica que los archivos personas.txt y productos.txt estén correctamente ubicados en la raíz del proyecto.
+ 
+4. Ejecuta el archivo Main.java desde el paquete app.
+
+5. Utiliza las opciones numéricas del menú en consola para navegar por las funciones del sistema.
